@@ -34,7 +34,7 @@ const HomePage = () => {
             Get Started <ArrowRightIcon className="h-5 w-5 inline ml-2" />
           </button> */}
 
-          
+          {/* button */}
           <button
             className="bg-indigo-500 hover:bg-indigo-600 px-6 py-3 rounded-xl text-lg font-semibold text-white transition shadow-lg hover:shadow-indigo-400/30"
           >
