@@ -25,3 +25,5 @@ const InfoModal = ({ isOpen, onClose }) => {
 };
 
 export default InfoModal;
+
+// This is the infoModal page
