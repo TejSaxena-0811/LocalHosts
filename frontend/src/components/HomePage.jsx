@@ -156,5 +156,5 @@ const HomePage = () => {
     </div>
   );
 };
-
+// this is the home page 
 export default HomePage;
