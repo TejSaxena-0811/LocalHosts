@@ -31,10 +31,10 @@ It leverages Large Language Models (GPT-4o via Azure) to automate threat modelin
 6. Results are displayed and stored with metadata
 
 ## Project Structure
-/frontend
-/backend
-/database
-/threats
+- /frontend
+- /backend
+- /database
+- /threats
 
 ## Goal
 To simplify and automate threat modeling, making security analysis faster, scalable, and more accessible for developers and organizations.
