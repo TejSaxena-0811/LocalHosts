@@ -33,7 +33,7 @@
 
 # # === Ensure Upload Directories Exist ===
 # if __name__ == '__main__':
-#     os.makedirs(os.path.join(basedir, 'uploads', 'plantuml'), exist_ok=True)
+    # os.makedirs(os.path.join(basedir, 'uploads', 'plantuml'), exist_ok=True)
 #     os.makedirs(os.path.join(basedir, 'uploads', 'productspec'), exist_ok=True)
 #     os.makedirs(os.path.join(basedir, 'uploads', 'drawio'), exist_ok=True)  # ✅ For draw.io
 #     app.run(host='0.0.0.0', port=5000, debug=True)
