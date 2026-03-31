@@ -125,13 +125,12 @@ export default function UploadProductSpec() {
             Use PlantUML
           </button>
 
-          {/* disabling drawio button for now */}
-          {/* <button
+          <button
             onClick={() => handleNext("drawio")}
             className="flex items-center bg-green-600 text-white px-6 py-3 rounded-full shadow hover:bg-green-700 transition hover:scale-105"
           >
             Use Draw.io
-          </button> */}
+          </button>
         </div>
       </div>
 
