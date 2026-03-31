@@ -14,7 +14,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/threats" element={<ThreatsLists />} />
+        <Route path="/threats" element={<ThreatsList />} />
         <Route path="/threats/:id" element={<ThreatDetail />} />
         <Route path="/generate" element={<ProductSpec />} />
         <Route path="/upload-product-spec" element={<UploadProductSpec />} />
