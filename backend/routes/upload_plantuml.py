@@ -4,7 +4,7 @@ from werkzeug.utils import secure_filename
 
 upload_plantuml = Blueprint('upload_plantuml', __name__)
 basedir = os.path.abspath(os.path.dirname(__file__))
-
+# Upload and save PlantUML file securely
 @upload_plantuml.route('/upload-plantuml', methods=['POST'])
 def upload_plantuml_file():
     if 'file' not in request.files:
