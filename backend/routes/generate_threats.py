@@ -114,7 +114,7 @@ def save_threat_to_blob(threat_entry):
     blob_name = f"{threat_entry['id']}.json"
     blob_client = container_client.get_blob_client(blob_name)
     blob_client.upload_blob(json.dumps(threat_entry, indent=2), overwrite=True)
-
+# generate threats from uploaded files and store result in blob
 # Routes
 @generate_threats.route("/generate_threats", methods=["POST"])
 def generate_threats_route():
