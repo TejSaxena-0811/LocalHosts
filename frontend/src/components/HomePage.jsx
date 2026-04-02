@@ -17,7 +17,7 @@ const HomePage = () => {
           Identify, analyze, and eliminate risks from your system design, beautifully and efficiently.
         </p>
 
-        {/* Lottie Animation */}
+        {/* Lottie Animation animation done here*/}
         <div className="w-64 h-64 mx-auto hover:scale-105 transition-transform">
           {/* <Lottie animationData={secureAnim} loop /> */}
           <img src="/logo/raptor_image.png" alt="raptor" className="mx-auto hover:scale-105 transition-transform animate-pulseScale"/>
