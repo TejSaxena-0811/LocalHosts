@@ -1,0 +1,5 @@
+Based on the c2 diagram file, give a brief description of how the architecture looks like.
+From the c1 diagram file, infer the system scope and trust boundaries.
+Create a list of critical assets for the system.
+Identify one-liner security objectives for the system. One for each: Confidentiality, Integrity, Availability, Authentication and Authorization, and Auditability.
+Based on your understanding of the system so far, and from the security objectives and list of critical assets identified, generate one-liner threat scenarios in the format: "{threat actor} uses {attack vector} to {attack outcome} so that {attack motivation}", skipping other details. Rate the identified threat into one of the following severity category: Low, Medium, High, Critical. Recommend precise one-liner countermeasure for the identified threat within the context of the system and The response MUST be named threat_scenarios with scenario,severity,countermeasure as fields and in valid JSON format.
