@@ -18,8 +18,8 @@ It leverages Large Language Models (GPT-4o via Azure) to automate threat modelin
 ## Tech Stack
 - Frontend: React.js, Tailwind CSS
 - Backend: Python Flask
-- AI Integration: Azure OpenAI (GPT-4o)
-- Database: Azure NoSQL
+- AI Integration: Azure OpenAI (GPT-4o model)
+- Database: GCP
 - Tools: Draw.io, PlantUML
 
 ## How It Works
