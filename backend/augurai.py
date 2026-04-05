@@ -16,7 +16,9 @@ def read_file_content(filename):
         content = file.read()
     return content
 
-# function to read file, process context, and handle prompts
+#  Reads prompts sequentially, sends product context to Azure OpenAI,
+# builds cumulative context from intermediate responses,
+# and returns final AI-generated threat analysis.
 def augur(product_info, product_diagram, prompts_file, max_tokens=4000):
     context=""
     aithreats=""
