@@ -32,8 +32,7 @@ It leverages Large Language Models (GPT-4o via Azure) to automate threat modelin
 
 ## Project Structure
 - /frontend
-- /backend
-- /database
+- /backend & /database
 - /threats
 
 ## Goal
