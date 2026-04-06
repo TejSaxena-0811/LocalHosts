@@ -13,6 +13,7 @@ const ThreatDetail = () => {
   const [highlightStyle, setHighlightStyle] = useState({ left: 0, width: 0 });
 
 
+  // useMemo hook
   const tabs = useMemo(() => {
     const baseTabs = [
       { key: "context", label: "Context" },
