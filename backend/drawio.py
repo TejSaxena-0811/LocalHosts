@@ -1,3 +1,6 @@
+# Extracts components and their relationships from a draw.io C4 JSON structure
+# Cleans HTML descriptions and maps component IDs to readable names
+# Returns structured data containing components and connections
 import re
 from html import unescape
 
