@@ -53,7 +53,7 @@ To simplify and automate threat modeling, making security analysis faster, scala
 - Flask
 
 ### AI Integration
-- Microsoft Azure OpenAI (GPT-4o)
+- Microsoft Azure OpenAI (GPT-4o Model)
 
 ### File Handling and Parsing
 - python-docx (for .docx files)
