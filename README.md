@@ -34,6 +34,7 @@ It leverages Large Language Models (GPT-4o via Azure) to automate threat modelin
 - /frontend
 - /backend & /database
 - /threats
+- /images
 
 ## Goal
 To simplify and automate threat modeling, making security analysis faster, scalable, and more accessible for developers and organizations.
