@@ -37,3 +37,35 @@ It leverages Large Language Models (GPT-4o via Azure) to automate threat modelin
 
 ## Goal
 To simplify and automate threat modeling, making security analysis faster, scalable, and more accessible for developers and organizations.
+
+
+
+
+## Tech Stack
+
+### Frontend
+- React.js
+- Tailwind CSS
+- JavaScript
+
+### Backend
+- Python
+- Flask
+
+### AI Integration
+- Microsoft Azure OpenAI (GPT-4o)
+
+### File Handling and Parsing
+- python-docx (for .docx files)
+- PlantUML (.puml processing)
+- Draw.io XML parsing
+
+### Database
+- Azure NoSQL Database
+
+### Cloud and Deployment
+- Microsoft Azure
+
+### Tools and Platforms
+- Git and GitHub
+- Visual Studio Code
