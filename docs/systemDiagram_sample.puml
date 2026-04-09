@@ -1,0 +1,24 @@
+@startuml
+!include <C4/C4_Container>
+title System Context Diagram
+left to right direction
+
+actor User
+component "Front-End Web Server" as FrontEndWebServer
+component "API Web Service" as APIWebService
+component "Load Wallet" as LoadWallet
+component "Make Payment" as MakePayment
+component "User Profile" as UserProfile
+database "MySQL DB" as MySQLDB
+database "Analytics DB" as AnalyticsDB
+cloud "Amazon S3" as AmazonS3
+
+
+User -> FrontEndWebServer
+FrontEndWebServer -> APIWebService
+APIWebService -> UserProfile
+APIWebService -> LoadWallet
+APIWebService -> MakePayment
+MakePayment -> AnalyticsDB
+UserProfile -> AmazonS3
+@enduml

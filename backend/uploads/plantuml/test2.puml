@@ -1,0 +1,24 @@
+@startuml
+
+title Simple Class Diagram
+
+class Animal {
+    +name: String
+    +age: int
+    +makeSound(): void
+}
+
+class Dog {
+    +breed: String
+    +fetch(): void
+}
+
+class Cat {
+    +color: String
+    +climb(): void
+}
+
+Animal <|-- Dog
+Animal <|-- Cat
+
+@enduml

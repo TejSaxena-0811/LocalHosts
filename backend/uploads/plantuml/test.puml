@@ -1,0 +1,13 @@
+@startuml
+title Threat Modeling System Overview
+
+package "Threat Modeling System" {
+    [User] --> (Login)
+    [User] --> (Submit Threat Model)
+    (Submit Threat Model) --> (Threat Analysis Engine)
+    (Threat Analysis Engine) --> (Data Store)
+    (Threat Analysis Engine) --> (Report Generator)
+    (Report Generator) --> [User]
+}
+
+@enduml
